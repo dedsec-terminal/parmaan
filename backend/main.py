@@ -16,7 +16,7 @@ from typing import Dict, List, Optional
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse, StreamingResponse, JSONResponse
+from fastapi.responses import HTMLResponse, StreamingResponse, JSONResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -336,3 +336,15 @@ def index():
     idx = STATIC_DIR / "index.html"
     if idx.exists(): return idx.read_text(encoding="utf-8")
     return "<h2>Frontend not built yet — see /docs</h2>"
+
+@app.get("/style.css")
+def get_css(): return FileResponse(STATIC_DIR / "style.css")
+
+@app.get("/app.js")
+def get_app_js(): return FileResponse(STATIC_DIR / "app.js")
+
+@app.get("/data.js")
+def get_data_js(): return FileResponse(STATIC_DIR / "data.js")
+
+@app.get("/services.js")
+def get_services_js(): return FileResponse(STATIC_DIR / "services.js")
