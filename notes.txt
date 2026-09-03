@@ -1,0 +1,2739 @@
+PROJECT NAME: PARMAAN
+
+TASK:
+Completely redesign and rebuild the existing frontend from the ground up.
+
+This is NOT a minor UI refresh.
+
+Treat the current UI as disposable.
+
+I want a complete, modern, premium, functional frontend prototype for a cybersecurity / digital forensics application named:
+
+PARMAAN
+
+The product integrates:
+
+1. Secure data erasure
+2. Forensic file recovery
+3. Evidence management
+4. Verification and audit logs
+5. Sanitization / forensic reports
+6. Chain-of-custody tracking
+7. Multilingual guided workflows
+
+IMPORTANT BRAND RESTRICTIONS:
+
+The ONLY product/brand name displayed anywhere must be:
+
+PARMAAN
+
+Do NOT mention:
+- SIH
+- hackathon
+- team names
+- government organization names
+- NTRO
+- DRDO
+- ministry names
+- college names
+- competition names
+- challenge numbers
+- sponsors
+- previous project names
+
+Do not invent another parent company.
+
+The interface should simply present itself as PARMAAN.
+
+==================================================
+PRIMARY OBJECTIVE
+==================================================
+
+The previous website looked like a generic generated dashboard and many controls did nothing.
+
+Fix this completely.
+
+EVERY visible interactive element MUST work in the frontend prototype.
+
+If a backend function does not exist yet, simulate it with frontend state and realistic mock data.
+
+There must be NO dead buttons.
+
+There must be NO buttons that click and do nothing.
+
+There must be NO fake dropdowns.
+
+There must be NO menu items without destinations.
+
+There must be NO cards pretending to be interactive without interaction.
+
+When a user clicks something, one of these must happen:
+
+- navigate to a page
+- open a dropdown
+- open a modal
+- open a drawer
+- expand/collapse something
+- start a simulated workflow
+- update page state
+- display a toast
+- open contextual help
+- change filters
+- show details
+- change mode
+- change language
+- download/generate a mock artifact
+- continue to the next step
+
+Build this as an actual PRODUCT PROTOTYPE rather than a marketing-only website.
+
+==================================================
+DESIGN DIRECTION
+==================================================
+
+Use the design philosophy of excellent modern developer tools and YC-quality startups.
+
+Take inspiration from the FEEL of:
+
+- opencode.ai
+- zen-browser.app
+- Linear
+- Vercel
+- Raycast
+- Arc
+- Resend
+- Supabase
+- modern developer tooling
+- high quality security platforms
+- desktop productivity software
+
+DO NOT pixel-copy any website.
+
+Instead borrow the design philosophy:
+
+- dark, restrained interface
+- strong typography
+- minimal chrome
+- subtle borders
+- generous spacing
+- compact information density
+- responsive panels
+- floating contextual surfaces
+- elegant command interfaces
+- subtle gradients
+- beautiful empty states
+- smooth transitions
+- clear hierarchy
+- sophisticated interaction design
+
+PARMAAN should feel like:
+
+"Linear + Zen Browser + a forensic workstation"
+
+NOT:
+
+"generic admin dashboard"
+
+NOT:
+
+"hackathon website"
+
+NOT:
+
+"cyberpunk hacker terminal"
+
+NOT:
+
+"government portal from 2012"
+
+NOT:
+
+"template SaaS landing page"
+
+NOT:
+
+"bright neon cybersecurity UI"
+
+==================================================
+VISUAL IDENTITY
+==================================================
+
+Create a premium dark visual language.
+
+Main background:
+near-black charcoal rather than pure black.
+
+Examples:
+#08090A
+#0B0C0E
+#101114
+
+Surfaces:
+slightly elevated dark layers.
+
+Example:
+#111316
+#15171B
+#1A1D21
+
+Borders:
+very subtle neutral borders.
+
+Use approximately:
+rgba(255,255,255,0.07)
+
+Typography:
+clean modern sans-serif.
+
+Use something visually similar to:
+Inter
+Geist
+Manrope
+Instrument Sans
+
+Use monospace ONLY where appropriate:
+hashes
+device IDs
+file paths
+logs
+technical metadata
+terminal output
+
+Accent:
+create ONE restrained signature PARMAAN accent.
+
+Recommended direction:
+cool indigo / violet / blue.
+
+Do not make the entire UI purple.
+
+Accent should be used selectively for:
+active states
+progress
+focus rings
+selected tabs
+primary actions
+
+Status colors:
+
+success = restrained green
+warning = amber
+critical/destructive = red
+information = blue
+
+Do not use large saturated status blocks.
+
+==================================================
+BRAND MARK
+==================================================
+
+Create a simple PARMAAN wordmark in the top-left.
+
+Do not make a cliché shield logo.
+
+Optional mark direction:
+minimal geometric verification / fingerprint / data-block symbol.
+
+Keep it abstract.
+
+Brand presentation:
+
+[mark] PARMAAN
+
+Small optional descriptor beneath or adjacent:
+
+Digital Forensics Workspace
+
+Never add another organization name.
+
+==================================================
+GLOBAL PRODUCT STRUCTURE
+==================================================
+
+Build TWO connected layers:
+
+1. PRODUCT LANDING / INTRO EXPERIENCE
+2. FULL APPLICATION WORKSPACE
+
+The application workspace is the most important part.
+
+==================================================
+LANDING PAGE
+==================================================
+
+Create a sophisticated minimalist landing page.
+
+Navbar:
+
+PARMAAN logo
+
+Product
+Capabilities
+Workflow
+Security
+Documentation
+
+right side:
+
+Language selector
+Open Workspace
+
+Do NOT add fake:
+Pricing
+Customers
+Investors
+Teams
+Contact Sales
+
+unless actually needed.
+
+Hero copy:
+
+Trust every byte.
+Erase with certainty.
+Recover with evidence.
+
+Supporting copy:
+
+A guided digital-forensics workspace for secure data sanitization, forensic recovery, evidence verification, chain-of-custody tracking, and audit-ready reporting.
+
+Primary CTA:
+
+Open Workspace
+
+Secondary CTA:
+
+Explore Workflow
+
+Include a subtle interactive visualization in the hero.
+
+Possible concept:
+
+A forensic pipeline showing:
+
+Device
+↓
+Acquire / Erase / Recover
+↓
+Verify
+↓
+Evidence
+↓
+Report
+
+Animate the nodes subtly.
+
+Do not use giant stock graphics.
+
+Do not use generic illustrations of hackers.
+
+Below hero, create an interactive capability showcase:
+
+Secure Erasure
+Forensic Recovery
+Evidence Vault
+Verification
+Reports
+
+Use horizontal tabs similar to high-quality product websites.
+
+Clicking each tab must update the preview panel.
+
+Example:
+
+Secure Erasure selected:
+show device list + wipe workflow preview
+
+Recovery selected:
+show recovered file tree
+
+Evidence selected:
+show evidence case interface
+
+Verification selected:
+show hash comparison
+
+Reports selected:
+show certificate preview
+
+Then include:
+
+"Built around a verifiable workflow"
+
+Visual timeline:
+
+01 Select
+02 Act
+03 Verify
+04 Document
+
+Then:
+
+Offline-first
+Audit-ready
+Multilingual
+Role-aware
+
+Keep landing page concise.
+
+The main experience starts when Open Workspace is clicked.
+
+==================================================
+APPLICATION SHELL
+==================================================
+
+Open Workspace enters:
+
+/workspace
+
+Create a desktop-app-like shell.
+
+LAYOUT:
+
+LEFT SIDEBAR
+TOP CONTEXT BAR
+MAIN CONTENT AREA
+OPTIONAL RIGHT CONTEXT DRAWER
+
+Do not make sidebar excessively wide.
+
+Sidebar should collapse.
+
+Collapsed state shows icons with tooltips.
+
+==================================================
+LEFT SIDEBAR
+==================================================
+
+TOP:
+
+PARMAAN logo
+
+Workspace switcher:
+Forensics Workspace
+
+Navigation:
+
+Overview
+
+OPERATIONS
+Erase
+Recover
+
+EVIDENCE
+Evidence Vault
+Cases
+Chain of Custody
+
+VERIFICATION
+Hash & Verify
+Audit Logs
+
+OUTPUT
+Reports
+
+SYSTEM
+Devices
+Activity
+Settings
+
+BOTTOM AREA:
+
+Help
+Language
+User profile
+
+Every item MUST route to its own functional view.
+
+==================================================
+TOP BAR
+==================================================
+
+Left:
+breadcrumbs
+
+Example:
+
+Operations / Secure Erasure
+
+Center / flexible:
+Command search trigger
+
+Display:
+
+Search or run command...
+
+Keyboard shortcut:
+Ctrl / Cmd + K
+
+Right:
+
+Connection indicator:
+Local
+Offline-ready
+
+Notification icon
+
+Normal / Expert Mode selector
+
+Language selector
+
+User avatar
+
+Every control must work.
+
+==================================================
+COMMAND PALETTE
+==================================================
+
+Cmd/Ctrl + K must open a functioning command palette.
+
+Search actions such as:
+
+Start secure erase
+Start recovery
+Create case
+Import evidence
+Verify hash
+Generate report
+View audit log
+Switch to Expert Mode
+Change language
+Open settings
+
+Allow keyboard navigation.
+
+Selecting an item navigates or opens the relevant workflow.
+
+==================================================
+NORMAL / EXPERT MODE
+==================================================
+
+THIS MUST ACTUALLY WORK.
+
+Create a global mode switch in the top bar:
+
+Guided
+Expert
+
+Default:
+Guided
+
+When clicking Expert:
+
+open a confirmation popover/modal:
+
+Expert Mode
+
+Advanced controls expose low-level forensic parameters and may increase operational risk.
+
+Cancel
+Enable Expert Mode
+
+When enabled:
+
+- top mode selector changes state
+- advanced configuration options appear
+- device metadata becomes more detailed
+- operation configuration includes technical options
+- advanced verification methods appear
+- raw operation logs become accessible
+- terminal/command preview may become accessible
+- technical file system details become visible
+
+A subtle indicator should state:
+
+Expert Mode
+
+Do NOT make the entire UI visually different.
+
+Expert mode adds DEPTH, not clutter.
+
+Guided mode should hide dangerous complexity.
+
+==================================================
+OVERVIEW PAGE
+==================================================
+
+Route:
+/workspace
+
+Header:
+
+Good afternoon
+Forensics Workspace
+
+Subheading:
+Review active operations, connected media, evidence cases, and recent verification activity.
+
+Primary action:
+New Operation
+
+Clicking New Operation opens a modal:
+
+What would you like to do?
+
+Secure Erase
+Recover Data
+Verify Evidence
+Create Case
+
+Each option works.
+
+Overview content:
+
+ACTIVE OPERATIONS
+
+Example cards/rows:
+
+NVMe Samsung 970 EVO
+Secure Erase
+62%
+Estimated remaining 08:14
+
+External USB
+Recovery scan
+31%
+2,841 files discovered
+
+Cards should allow:
+
+Open
+Pause
+Cancel
+
+For destructive operation Cancel:
+require confirmation.
+
+CONNECTED DEVICES
+
+Table:
+
+Device
+Type
+Capacity
+Filesystem
+Status
+Actions
+
+Example:
+
+Samsung SSD 970 EVO
+NVMe
+1 TB
+NTFS
+Ready
+
+SanDisk Extreme
+USB
+128 GB
+exFAT
+Ready
+
+Seagate Barracuda
+SATA
+2 TB
+Unknown
+Needs analysis
+
+Click device row => device detail drawer.
+
+RECENT CASES
+
+show:
+Case ID
+Name
+Evidence
+Updated
+Status
+
+RECENT ACTIVITY
+
+timeline:
+Device connected
+Hash verified
+Report generated
+Evidence tagged
+Recovery completed
+
+==================================================
+SECURE ERASE PAGE
+==================================================
+
+Route:
+/workspace/erase
+
+This is a major workflow.
+
+Use a STEPPER.
+
+Step 1
+Select Target
+
+Step 2
+Erasure Method
+
+Step 3
+Review
+
+Step 4
+Execute
+
+Step 5
+Verify
+
+Step 6
+Certificate
+
+-----------------------------------
+STEP 1 — SELECT TARGET
+-----------------------------------
+
+Tabs:
+
+Drives
+Partitions
+Files & Folders
+
+Drives table:
+
+Device
+Model
+Serial
+Capacity
+Interface
+Status
+
+Rows clickable.
+
+Selecting a row creates clear selected state.
+
+Open device details using a side drawer.
+
+Device drawer includes:
+
+Model
+Device path
+Serial
+Interface
+Capacity
+Partition scheme
+Filesystem
+SMART status
+Mounted state
+Read/write state
+
+Buttons:
+
+Select Device
+Close
+
+Guided mode shows simplified metadata.
+
+Expert mode shows all technical fields.
+
+Next button disabled until target selected.
+
+-----------------------------------
+STEP 2 — ERASURE METHOD
+-----------------------------------
+
+Guided mode options:
+
+Quick Sanitization
+Recommended Secure Erase
+Full Overwrite
+Crypto Erase if supported
+
+Each card contains:
+
+title
+one-line explanation
+expected duration
+verification level
+compatibility indicator
+
+Recommended option labeled:
+
+Recommended
+
+Expert Mode reveals:
+
+Tool / method selection
+
+nwipe
+scrub
+srm
+blkdiscard
+ATA Secure Erase
+
+Display these as planned/prototype method choices.
+
+Do NOT imply backend execution is currently real.
+
+Expert controls:
+
+Overwrite passes
+Pattern
+Verification percentage
+Block size
+Force unmount
+Secure erase mode
+Discard options
+
+Use clear warning treatment.
+
+-----------------------------------
+STEP 3 — REVIEW
+-----------------------------------
+
+Summary panel:
+
+Target
+Device
+Serial
+Capacity
+
+Method
+Secure Erase
+
+Verification
+Full verification
+
+Operator
+Current user
+
+Output
+Sanitization certificate
+
+Warning:
+
+This action is destructive and cannot be undone.
+
+Require checkbox:
+
+I confirm that the selected target is correct.
+
+Then enable:
+
+Begin Erasure
+
+-----------------------------------
+STEP 4 — EXECUTION
+-----------------------------------
+
+Simulate a realistic operation.
+
+Show:
+
+progress ring/bar
+percentage
+data processed
+throughput
+elapsed time
+estimated remaining
+
+Timeline:
+
+Initializing
+Locking target
+Executing sanitization
+Verifying
+Finalizing
+
+Expandable:
+
+Operation Log
+
+Example log entries with timestamps.
+
+Controls:
+
+Pause
+Cancel Operation
+
+Destructive cancellation opens confirmation.
+
+Do NOT complete instantly.
+
+Use simulated frontend timing.
+
+-----------------------------------
+STEP 5 — VERIFY
+-----------------------------------
+
+Display:
+
+Sanitization completed
+
+Verification Status:
+PASSED
+
+Verification summary:
+
+Blocks sampled
+Errors
+Readback status
+Final device state
+
+Generate verification hash where appropriate.
+
+Show:
+
+SHA-256
+copy button
+
+Example hash can be mock data.
+
+-----------------------------------
+STEP 6 — CERTIFICATE
+-----------------------------------
+
+Create polished report completion screen.
+
+Certificate ID:
+PRM-SAN-2026-00184
+
+Fields:
+
+Operator
+Target
+Device serial
+Capacity
+Method
+Started
+Completed
+Verification status
+Verification hash
+
+Buttons:
+
+View Certificate
+Export PDF
+Export CSV
+Add to Case
+Start Another Operation
+
+Export buttons should create/download a mock client-generated file or show export-success behavior.
+
+==================================================
+RECOVERY PAGE
+==================================================
+
+Route:
+/workspace/recover
+
+Stepper:
+
+1 Source
+2 Scan
+3 Discover
+4 Preview
+5 Recover
+6 Verify
+
+-----------------------------------
+SOURCE
+-----------------------------------
+
+Select:
+
+Drive
+Partition
+Disk Image
+
+Allow mock:
+
+Upload forensic image
+
+Accept visual formats:
+.E01
+.raw
+.dd
+.img
+
+No real backend required.
+
+Show uploaded file as attached evidence.
+
+-----------------------------------
+SCAN CONFIGURATION
+-----------------------------------
+
+Guided choices:
+
+Quick File Search
+Deep Recovery
+Lost Partition Search
+
+Expert controls:
+
+filesystem
+sector ranges
+carving mode
+signature selection
+deleted-entry parsing
+allocated/unallocated selection
+metadata recovery
+recursive carving
+
+Tool profile display may reference:
+
+TestDisk
+PhotoRec
+The Sleuth Kit
+
+But only inside technical configuration/about integration areas.
+
+Do not turn tool names into the brand.
+
+-----------------------------------
+SCANNING SCREEN
+-----------------------------------
+
+Create beautiful progress experience.
+
+Status:
+
+Scanning sector 821,442 of 2,000,000
+
+Files found:
+2,841
+
+Partitions found:
+3
+
+Potential recoverable:
+1.8 GB
+
+Live discovery feed:
+
+document.pdf
+photo_0142.jpg
+archive.zip
+messages.db
+presentation.pptx
+
+Allow:
+
+Pause
+Stop Scan
+Run in Background
+
+Run in Background returns user to workspace and leaves operation active.
+
+-----------------------------------
+DISCOVER RESULTS
+-----------------------------------
+
+Build forensic file browser.
+
+Three-column mode:
+
+LEFT:
+directory / source tree
+
+CENTER:
+results table
+
+RIGHT:
+preview / metadata inspector
+
+Table columns:
+
+checkbox
+Name
+Type
+Path
+Size
+Deleted
+Integrity
+Modified
+Tags
+
+Filters:
+
+All
+Deleted
+Documents
+Images
+Video
+Archives
+Databases
+High confidence
+
+Search field.
+
+Sort controls.
+
+Bulk select.
+
+Actions:
+
+Preview
+Tag
+Add to Evidence
+Recover
+
+-----------------------------------
+FILE PREVIEW
+-----------------------------------
+
+Right inspector shows:
+
+Preview
+Metadata
+Hex
+Hash
+Notes
+
+For image:
+render placeholder preview.
+
+Document:
+document icon / mock preview.
+
+Text:
+display sample text.
+
+Hex:
+show mock hex viewer.
+
+Hash:
+SHA-256
+
+Notes:
+editable note field.
+
+Tag dropdown:
+
+Relevant
+Reviewed
+Priority
+Potential Evidence
+Exclude
+
+Make tags functional.
+
+-----------------------------------
+RECOVER
+-----------------------------------
+
+Selecting Recover opens modal:
+
+Recover Selected Files
+
+Selected:
+24 files
+Total:
+842 MB
+
+Destination selector mock.
+
+Options:
+
+Preserve directory structure
+Calculate hashes after recovery
+Add recovered files to active case
+
+Begin Recovery
+
+Simulate progress.
+
+Completion:
+
+24 of 24 files recovered
+842 MB recovered
+24 hashes verified
+
+Actions:
+
+Open Results
+Add to Evidence Vault
+Generate Recovery Report
+
+==================================================
+EVIDENCE VAULT
+==================================================
+
+Route:
+/workspace/evidence
+
+Premium file/evidence management interface.
+
+Header:
+
+Evidence Vault
+
+Actions:
+
+Import Evidence
+Create Collection
+
+View modes:
+
+List
+Grid
+
+Filter bar:
+
+Case
+Type
+Tag
+Integrity
+Date
+Operator
+
+Search.
+
+Evidence table:
+
+Evidence ID
+Name
+Case
+Type
+Size
+SHA-256
+Integrity
+Tags
+Custodian
+Added
+
+Click item opens evidence inspector drawer.
+
+Inspector:
+
+Preview
+Properties
+Hashes
+Chain of Custody
+Notes
+Related Files
+
+Actions:
+
+Verify
+Tag
+Add Note
+Export Metadata
+Move to Case
+
+Integrity status:
+
+Verified
+Changed
+Pending
+
+==================================================
+CASES
+==================================================
+
+Route:
+/workspace/cases
+
+Case cards/table.
+
+Example:
+
+PRM-2026-0042
+Unauthorized Data Access
+12 evidence items
+Open
+
+PRM-2026-0041
+Recovered External Media
+37 evidence items
+Review
+
+Create Case button works.
+
+Create Case modal:
+
+Case Name
+Case ID auto generated
+Description
+Investigator
+Classification
+Tags
+
+Create
+
+Case detail page:
+
+Overview
+Evidence
+Operations
+Chain of Custody
+Reports
+Notes
+
+==================================================
+CHAIN OF CUSTODY
+==================================================
+
+Route:
+/workspace/custody
+
+Create chronological immutable-looking event timeline.
+
+Each event:
+
+timestamp
+actor
+action
+evidence
+location/workstation
+verification signature/hash
+
+Example:
+
+Evidence imported
+Hash verified
+Custody transferred
+File recovered
+Metadata exported
+Report generated
+
+Click event opens detail drawer.
+
+Drawer:
+
+Event ID
+Timestamp
+Operator
+Action
+Evidence ID
+Previous custody
+New custody
+Hash
+System log reference
+
+Button:
+Copy event reference
+
+==================================================
+HASH & VERIFY
+==================================================
+
+Route:
+/workspace/verify
+
+Large verification drop-zone.
+
+Options:
+
+Verify File
+Verify Evidence Item
+Compare Hashes
+
+Algorithms:
+
+SHA-256 default
+SHA-512
+SHA-1 for compatibility
+MD5 legacy
+
+Guided mode:
+SHA-256 only by default.
+
+Expert mode:
+show all.
+
+Upload mock file.
+
+Simulate hashing animation.
+
+Result:
+
+Verification complete
+
+Expected:
+...
+
+Calculated:
+...
+
+MATCH
+
+or
+
+MISMATCH
+
+Mismatch gets strong warning treatment.
+
+Add:
+
+Copy Hash
+Add Verification to Case
+Export Result
+
+==================================================
+AUDIT LOGS
+==================================================
+
+Route:
+/workspace/audit
+
+Make this sophisticated.
+
+Filters:
+
+Date
+User
+Action
+Case
+Device
+Severity
+
+Search:
+Search audit events...
+
+Table:
+
+Time
+Actor
+Action
+Target
+Case
+Status
+Event ID
+
+Click row opens detail drawer.
+
+Drawer contains:
+
+event metadata
+request/action
+result
+related device
+related evidence
+hash
+previous audit reference
+
+Provide button:
+
+Export Audit Log
+
+Include simulated CSV export.
+
+Expert mode adds:
+
+Raw Event JSON
+
+with formatted JSON viewer.
+
+==================================================
+REPORTS
+==================================================
+
+Route:
+/workspace/reports
+
+Header:
+
+Reports
+
+Button:
+
+Generate Report
+
+Report categories:
+
+Sanitization Certificate
+Recovery Report
+Evidence Summary
+Chain of Custody
+Verification Report
+Case Report
+
+Recent reports table:
+
+Report ID
+Type
+Case
+Generated
+Operator
+Status
+
+Click report opens report preview.
+
+Build realistic A4-style report preview inside interface.
+
+Report generation wizard:
+
+Step 1:
+Report Type
+
+Step 2:
+Scope
+
+Step 3:
+Included Sections
+
+Step 4:
+Review
+
+Step 5:
+Generate
+
+Sections toggles:
+
+Case summary
+Evidence inventory
+Hash results
+Operations
+Recovery activity
+Chain of custody
+Audit trail
+Operator information
+
+Generate button shows progress then completion.
+
+Actions:
+
+Preview
+Export PDF
+Export CSV where applicable
+Print
+Copy Report ID
+
+==================================================
+DEVICES
+==================================================
+
+Route:
+/workspace/devices
+
+Device inventory.
+
+Header:
+
+Connected Devices
+
+Refresh
+
+Mock detect device action.
+
+Rows display:
+
+status dot
+name
+device path
+model
+serial
+interface
+capacity
+filesystem
+mount
+health
+
+Click row opens detailed device page/drawer.
+
+Actions:
+
+Start Erase
+Start Recovery
+Analyze
+View Details
+
+Start Erase routes to erase workflow with that device preselected.
+
+Start Recovery routes to recovery workflow with device preselected.
+
+==================================================
+ACTIVITY CENTER
+==================================================
+
+Route:
+/workspace/activity
+
+Combine:
+
+Running
+Completed
+Failed
+Queued
+
+operation categories.
+
+Each operation shows:
+
+progress
+duration
+initiator
+device/evidence
+action
+
+Allow:
+
+Open
+Pause
+Resume
+Cancel
+Retry
+
+where contextually valid.
+
+==================================================
+NOTIFICATIONS
+==================================================
+
+Notification bell must work.
+
+Open a floating panel.
+
+Examples:
+
+Recovery scan completed
+Verification succeeded
+Report PRM-RPT-018 generated
+External USB detected
+Operation requires attention
+
+Click notification routes to relevant item.
+
+Mark all as read works.
+
+==================================================
+LANGUAGE SYSTEM
+==================================================
+
+Language selector must work.
+
+Prototype languages:
+
+English
+हिन्दी
+मराठी
+বাংলা
+தமிழ்
+తెలుగు
+
+English may remain the only fully translated language if necessary for prototype limitations, BUT clicking another language MUST change visible key UI labels.
+
+At minimum translate:
+
+Overview
+Erase
+Recover
+Evidence
+Reports
+Settings
+Continue
+Cancel
+Verify
+Help
+
+For Hindi provide broader translation across primary navigation/workflows.
+
+Language dropdown should visibly change current selected language.
+
+Store selection in frontend state/local storage.
+
+==================================================
+VOICE / GUIDED HELP
+==================================================
+
+Add optional Guide button.
+
+Represent with subtle sparkle/help icon, NOT a cartoon AI assistant.
+
+Click opens right-side Guide panel.
+
+Context-aware help.
+
+Example on erase page:
+
+Secure Erasure
+
+1. Select the device you want to sanitize.
+2. Confirm its serial number carefully.
+3. Choose the recommended method unless advanced configuration is required.
+4. PARMAAN will verify the operation before producing a certificate.
+
+Buttons:
+
+Read aloud
+Show risk information
+I'm ready
+
+Read aloud can use browser speech synthesis if supported.
+
+If not supported:
+show graceful toast.
+
+==================================================
+GLOBAL HELP
+==================================================
+
+Help opens command-style help center.
+
+Sections:
+
+Getting Started
+Secure Erasure
+Recovery
+Evidence
+Verification
+Reports
+Keyboard Shortcuts
+
+Search help.
+
+Keep help offline-looking.
+
+Do not link to nonexistent public support URLs.
+
+==================================================
+SETTINGS
+==================================================
+
+Route:
+/workspace/settings
+
+Tabbed settings.
+
+General
+Appearance
+Language
+Security
+Reports
+Storage
+Advanced
+
+GENERAL
+
+Default workspace
+Default start page
+Confirm destructive actions toggle
+
+APPEARANCE
+
+Theme:
+Dark
+System
+
+Density:
+Comfortable
+Compact
+
+Reduced motion toggle
+
+LANGUAGE
+
+Interface language
+Voice assistance
+Offline language pack
+
+SECURITY
+
+Session timeout
+Require confirmation for destructive operations
+Clipboard warning
+Lock workspace
+
+REPORTS
+
+Default format
+Include verification hashes
+Include operator information
+Certificate prefix
+
+STORAGE
+
+Evidence location
+Database status
+Storage usage
+
+ADVANCED
+
+Visible primarily in expert mode.
+
+Mock API endpoint
+Operation timeout
+Verbose logs
+Developer diagnostics
+
+Settings must update local frontend state.
+
+==================================================
+PROFILE MENU
+==================================================
+
+User avatar click:
+
+Profile
+Role
+Lock Workspace
+Sign Out
+
+Prototype profile:
+
+Operator
+Forensic Investigator
+
+Do not reference real people.
+
+Lock Workspace:
+
+show full-screen lock view.
+
+Unlock with prototype button.
+
+==================================================
+RBAC PROTOTYPE
+==================================================
+
+Create role selector ONLY in demo settings:
+
+Clerk
+Investigator
+Administrator
+Forensic Expert
+
+Changing role changes access.
+
+Clerk:
+limited operations
+
+Investigator:
+recovery/evidence access
+
+Administrator:
+system/settings access
+
+Forensic Expert:
+all expert functionality
+
+Unavailable item:
+show disabled item with tooltip explaining required role.
+
+Do not silently hide everything.
+
+==================================================
+MICROINTERACTIONS
+==================================================
+
+The frontend should feel extremely polished.
+
+Implement:
+
+button hover states
+pressed states
+keyboard focus
+tooltips
+dropdown animations
+modal transitions
+drawer transitions
+progress animations
+tab indicator animation
+sidebar collapse
+skeleton loaders
+toast notifications
+copy-to-clipboard feedback
+context menus
+responsive tables
+empty states
+
+Animations:
+120ms–240ms primarily.
+
+Use restrained ease curves.
+
+Avoid excessive spring effects.
+
+Respect reduced-motion setting.
+
+==================================================
+TOAST SYSTEM
+==================================================
+
+Create global toast system.
+
+Examples:
+
+Hash copied
+Evidence tagged
+Report generated
+Language changed
+Operation paused
+Device selected
+Settings saved
+
+Success / warning / error types.
+
+==================================================
+MODALS
+==================================================
+
+Modals should:
+
+trap focus
+support Escape
+have close button
+prevent accidental destructive confirmation
+have polished backdrop
+
+Do not use browser alert().
+
+==================================================
+DANGEROUS ACTION DESIGN
+==================================================
+
+Secure erase is destructive.
+
+Never allow one-click erase.
+
+Pattern:
+
+Select
+Configure
+Review
+Explicit confirmation
+Execute
+
+For final execution require:
+
+checkbox confirmation
+
+AND
+
+button:
+
+Begin Secure Erasure
+
+Optional expert high-risk method may additionally require typing:
+
+ERASE
+
+This is a UX simulation.
+
+==================================================
+EMPTY STATES
+==================================================
+
+Create designed empty states.
+
+Example Evidence Vault:
+
+No evidence added yet.
+
+Import evidence or add recovered files from a recovery operation.
+
+Import Evidence
+
+Example Reports:
+
+No reports generated yet.
+
+Generate a sanitization, recovery, verification, or case report.
+
+Generate Report
+
+==================================================
+LOADING STATES
+==================================================
+
+All major data interfaces need skeleton loading state.
+
+Simulate short initial load.
+
+Avoid spinning wheel everywhere.
+
+==================================================
+ERROR STATES
+==================================================
+
+Prototype realistic errors.
+
+Examples:
+
+Device disconnected
+Verification mismatch
+Insufficient permission
+Evidence unavailable
+Operation interrupted
+
+Each error must provide an action.
+
+Example:
+
+Device disconnected
+
+The selected media is no longer available.
+
+Retry
+Choose Another Device
+
+==================================================
+DEVICE DRAWER DESIGN
+==================================================
+
+Use a consistent right-side inspector pattern throughout product.
+
+This is important.
+
+Drawers are used for:
+
+device details
+evidence metadata
+audit event
+report details
+operation details
+
+Width:
+roughly 380–460px desktop.
+
+Use tabs inside inspector where helpful.
+
+This creates a powerful productivity-tool feel.
+
+==================================================
+TABLE DESIGN
+==================================================
+
+Tables must feel like Linear/Vercel-quality interfaces.
+
+Features:
+
+sticky header
+hover row
+selection
+checkboxes
+sorting
+filtering
+search
+column alignment
+contextual actions
+pagination or virtualized feel
+
+Avoid giant rounded cards around every table.
+
+Use borders and whitespace instead.
+
+==================================================
+RESPONSIVENESS
+==================================================
+
+Primary design target:
+
+1440px desktop
+
+Also support:
+
+1280px
+1024px
+tablet
+mobile
+
+Desktop:
+full sidebar + inspector
+
+Tablet:
+collapsible sidebar
+
+Mobile:
+bottom or drawer navigation
+single-column workflows
+tables transform intelligently
+
+Do not simply shrink desktop UI.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Build:
+
+semantic buttons
+labels
+aria attributes
+keyboard navigation
+visible focus states
+good contrast
+tooltips
+reduced motion support
+
+Do not rely on color alone for status.
+
+==================================================
+TECHNICAL FRONTEND
+==================================================
+
+Use the best modern frontend stack available in the environment.
+
+Preferred:
+
+React
+TypeScript
+Tailwind CSS
+
+Use modern reusable components.
+
+If available:
+
+shadcn-style primitives
+Radix-style accessible primitives
+Lucide icons
+Framer Motion
+
+Do NOT overuse component-library defaults.
+
+Customize them heavily to create the PARMAAN visual language.
+
+State management can be:
+
+React state
+context
+or Zustand if available.
+
+No backend required yet.
+
+Use frontend mock services.
+
+Create central mock data/services instead of hardcoding random values throughout components.
+
+Suggested structure:
+
+/components
+/layout
+/navigation
+/dialogs
+/drawers
+/tables
+/status
+/workflow
+/evidence
+/reports
+
+/pages or routes
+
+/data/mock
+
+/store
+
+/utils
+
+==================================================
+ROUTING
+==================================================
+
+Implement working routes:
+
+/
+landing page
+
+/workspace
+overview
+
+/workspace/erase
+
+/workspace/recover
+
+/workspace/evidence
+
+/workspace/cases
+
+/workspace/cases/:id
+
+/workspace/custody
+
+/workspace/verify
+
+/workspace/audit
+
+/workspace/reports
+
+/workspace/devices
+
+/workspace/activity
+
+/workspace/settings
+
+All sidebar navigation must use these routes.
+
+==================================================
+MOCK DATA
+==================================================
+
+Create realistic but fictional data.
+
+Do NOT use personal information.
+
+Devices:
+
+Samsung SSD 970 EVO
+SanDisk Extreme USB
+Seagate Barracuda
+
+Cases:
+
+PRM-2026-0042
+Unauthorized Data Access
+
+PRM-2026-0041
+Recovered External Media
+
+Evidence:
+
+PRM-EVD-0184
+document.pdf
+
+PRM-EVD-0185
+disk-image.E01
+
+PRM-EVD-0186
+photo_0142.jpg
+
+Reports:
+
+PRM-RPT-0094
+Sanitization Certificate
+
+Use believable timestamps and hashes.
+
+==================================================
+SIMULATED OPERATIONS
+==================================================
+
+Create frontend simulation engine.
+
+Functions such as:
+
+startEraseOperation()
+pauseOperation()
+resumeOperation()
+cancelOperation()
+
+startRecoveryScan()
+
+recoverFiles()
+
+verifyHash()
+
+generateReport()
+
+importEvidence()
+
+createCase()
+
+Each should update application state.
+
+Progress should change over time for demonstration.
+
+Operations should remain visible in Activity Center.
+
+Completed operations should generate notifications.
+
+==================================================
+PERSISTENCE
+==================================================
+
+Use localStorage for prototype state where possible.
+
+Persist:
+
+theme
+language
+expert mode
+sidebar state
+selected role
+settings
+mock cases
+mock evidence
+recent operations
+
+Reloading the page should not completely reset the experience.
+
+==================================================
+INTERACTION QA REQUIREMENT
+==================================================
+
+BEFORE FINISHING THE BUILD:
+
+Audit EVERY interactive element.
+
+For every:
+
+button
+icon button
+menu item
+tab
+dropdown
+filter
+table row
+CTA
+card
+toggle
+checkbox
+radio
+sidebar item
+breadcrumb
+notification
+context menu
+command palette action
+
+verify that it does something.
+
+Do not leave placeholder onclick handlers.
+
+If a feature does not have backend support, simulate the expected frontend result.
+
+==================================================
+DO NOT DO THESE
+==================================================
+
+Do NOT:
+
+make everything into rounded cards
+
+use huge border radius everywhere
+
+use excessive gradients
+
+use excessive glow
+
+use green hacker aesthetic
+
+use Matrix effects
+
+use fake terminal text as decoration
+
+use random padlock graphics
+
+use giant cybersecurity shield illustrations
+
+use stock photos
+
+use glassmorphism everywhere
+
+use childish animations
+
+put emojis in major navigation
+
+make a generic Bootstrap admin dashboard
+
+create unnecessary metrics like "security score 98%"
+
+create made-up AI features
+
+create pricing plans
+
+create testimonials
+
+create fake enterprise logos
+
+create hackathon references
+
+create organization references outside PARMAAN
+
+leave dead controls
+
+==================================================
+DESIGN DETAILS
+==================================================
+
+Border radius system:
+
+small controls:
+6-8px
+
+cards/panels:
+10-14px
+
+large modal:
+14-18px
+
+Do not make everything pill shaped.
+
+Spacing should feel systematic.
+
+Use 4 / 8px base grid.
+
+Buttons:
+
+Primary:
+accent background
+high contrast text
+
+Secondary:
+dark surface
+subtle border
+
+Ghost:
+transparent
+
+Danger:
+restrained red
+
+Height:
+approximately 34-40px desktop
+
+Inputs:
+
+dark
+minimal
+strong focus ring
+44px maximum unless search field requires otherwise
+
+==================================================
+PRODUCT PERSONALITY
+==================================================
+
+PARMAAN should communicate:
+
+precision
+trust
+calm
+technical competence
+forensic integrity
+control
+clarity
+
+It should NOT communicate:
+
+fear
+hacking culture
+military styling
+sci-fi fantasy
+surveillance aesthetic
+
+==================================================
+PAGE TRANSITIONS
+==================================================
+
+Keep navigation nearly instant.
+
+Use subtle fade/translate:
+maximum around 150ms.
+
+Do not animate entire pages dramatically.
+
+==================================================
+SPECIAL LANDING TO WORKSPACE TRANSITION
+==================================================
+
+Clicking:
+
+Open Workspace
+
+should smoothly transition from marketing site into the dark application workspace.
+
+The workspace should feel like launching a professional desktop utility.
+
+==================================================
+WORKFLOW NAVIGATION
+==================================================
+
+Operations must preserve state when navigating between steps.
+
+Example:
+
+User selects Samsung SSD.
+
+Clicks Continue.
+
+Returns to previous step.
+
+Samsung SSD remains selected.
+
+Likewise:
+
+Recovery scan selections
+tags
+case selection
+report settings
+
+must remain intact during workflow.
+
+==================================================
+BREADCRUMBS
+==================================================
+
+Use breadcrumbs inside deep pages.
+
+Example:
+
+Cases / PRM-2026-0042 / Evidence
+
+Breadcrumbs are clickable.
+
+==================================================
+CONTEXT MENUS
+==================================================
+
+Add right-click or ⋯ menus where appropriate.
+
+Evidence:
+
+Preview
+Verify
+Add Tag
+Move to Case
+Export Metadata
+
+Device:
+
+Details
+Analyze
+Start Recovery
+Start Erasure
+
+Report:
+
+Preview
+Download
+Duplicate Configuration
+
+==================================================
+HOTKEYS
+==================================================
+
+Implement:
+
+Cmd/Ctrl + K
+Command Palette
+
+G then O
+Overview
+
+G then E
+Erase
+
+G then R
+Recover
+
+G then V
+Evidence Vault
+
+?
+Help / shortcuts
+
+Esc
+close modal/drawer
+
+Display shortcuts in tooltips where appropriate.
+
+==================================================
+ONBOARDING
+==================================================
+
+On first workspace launch only:
+
+small elegant 3-step onboarding dialog.
+
+Welcome to PARMAAN
+
+1
+Choose an operation.
+
+2
+Verify the target before execution.
+
+3
+PARMAAN records verification and reporting activity.
+
+Buttons:
+
+Skip
+Continue
+Get Started
+
+Do not make onboarding long.
+
+Store onboarding completion locally.
+
+==================================================
+FIRST-RUN SAFETY NOTE
+==================================================
+
+Since this prototype currently uses simulated operations, show a subtle environment indicator:
+
+Prototype Environment
+
+Tooltip:
+
+Operations in this interface are simulated until forensic engines are connected.
+
+Do NOT repeat this warning everywhere.
+
+Keep it subtle in topbar or settings.
+
+==================================================
+INTEGRATION-READY ARCHITECTURE
+==================================================
+
+Prepare frontend so actual backend can later connect to:
+
+Python FastAPI
+
+Potential backend capabilities:
+
+Erasure engine
+Recovery engine
+Evidence vault
+Hash verification
+Audit logging
+Report generation
+Role-based access control
+Job queue
+
+Do not implement backend commands now.
+
+Create frontend service interfaces so mocked services can later be replaced by API calls.
+
+Example conceptual interfaces:
+
+deviceService
+eraseService
+recoveryService
+evidenceService
+caseService
+verificationService
+reportService
+auditService
+
+==================================================
+ERASURE TOOL INTEGRATION PLACEHOLDERS
+==================================================
+
+Future integrations may include:
+
+nwipe
+scrub
+srm
+blkdiscard
+hdparm secure erase
+
+Show these only in:
+
+Expert Mode
+technical settings
+integration status
+operation configuration
+
+Do not expose CLI commands that would actually wipe a user's machine from the prototype.
+
+==================================================
+RECOVERY INTEGRATION PLACEHOLDERS
+==================================================
+
+Potential integrations:
+
+TestDisk
+PhotoRec
+The Sleuth Kit
+Autopsy-related workflows
+
+Again:
+
+these are future backend integrations.
+
+Frontend should provide adapters/placeholders only.
+
+==================================================
+DATA / STORAGE INTEGRATION PLACEHOLDERS
+==================================================
+
+Prepare UX for:
+
+PostgreSQL
+SQLite
+encrypted evidence store
+MinIO-compatible object storage
+
+Do not make storage technology visible to normal users.
+
+Expert/Admin settings can expose infrastructure status.
+
+==================================================
+MULTILINGUAL ARCHITECTURE
+==================================================
+
+Structure all UI strings for i18n.
+
+Do not hardcode navigation labels directly in components where avoidable.
+
+Prepare language packs for:
+
+English
+Hindi
+Marathi
+Bengali
+Tamil
+Telugu
+
+Architecture should later support:
+
+Bhashini
+IndicTrans2
+offline help packs
+
+==================================================
+FINAL POLISH CHECK
+==================================================
+
+Before declaring the implementation complete:
+
+1. Open every route.
+2. Test every sidebar item.
+3. Test Expert Mode.
+4. Test Guided Mode.
+5. Test language selector.
+6. Test command palette.
+7. Complete an entire erase flow.
+8. Complete an entire recovery flow.
+9. Add recovered evidence.
+10. Create a case.
+11. Verify a hash.
+12. Generate a report.
+13. Open audit log.
+14. Open notifications.
+15. Change settings.
+16. Collapse sidebar.
+17. Test responsive state.
+18. Test modals/drawers.
+19. Test back navigation.
+20. Confirm there are ZERO dead buttons.
+
+If anything does nothing, implement the missing frontend interaction before finishing.
+
+==================================================
+FINAL RESULT
+==================================================
+
+The finished product should feel like a real professional application that someone could demo for 10–15 minutes without encountering a dead end.
+
+Someone should be able to:
+
+open PARMAAN
+→ understand what it does
+→ enter workspace
+→ select a drive
+→ simulate secure erasure
+→ verify completion
+→ generate a certificate
+→ start a recovery
+→ browse recovered files
+→ preview and tag files
+→ add evidence to a case
+→ inspect chain-of-custody history
+→ verify hashes
+→ generate reports
+→ switch languages
+→ enable Expert Mode
+→ inspect detailed forensic options
+
+without leaving the prototype.
+
+Prioritize:
+
+FUNCTIONALITY
+INTERACTION QUALITY
+VISUAL POLISH
+INFORMATION HIERARCHY
+CONSISTENCY
+
+over decorative effects.
+
+Build the frontend completely.
